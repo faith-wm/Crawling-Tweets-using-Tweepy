@@ -2,14 +2,13 @@
 import tweepy
 import csv
 
-auth = tweepy.OAuthHandler('consumer_key', 'consumer_secret')   #enter authentication details based on your twitter account--
-                                                            #read here how to get them https://themepacific.com/how-to-generate-api-key-consumer-token-access-key-for-twitter-oauth/994/
+auth = tweepy.OAuthHandler('consumer_key', 'consumer_secret')   #enter authentication details :#read here how to get them https://themepacific.com/how-to-generate-api-key-consumer-token-access-key-for-twitter-oauth/994/
 auth.set_access_token('access_token', 'access_token_secret')
 
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
-saveFilename='xxxx.csv'
-searchTerms=["virus"]  #keywords/ search terms
+saveFilename='filename.csv'
+searchTerms=["keyword"]  #keywords/ search terms
 
 index=0
 for term in searchTerms:

@@ -1,4 +1,4 @@
-# Crawling_Twitter_tweets with Tweepy #
+# Crawling Twitter tweets with Twitter API (Tweepy)
 Twitter is a popular platform for sharing information on different topics.
 It is easy to extract information and discussions from twitter than from other social media platforms.
 
